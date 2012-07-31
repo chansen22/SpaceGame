@@ -2,9 +2,6 @@ SpaceGame
 =========
 A space game!
 
-Installation
-============
-
 Install cmake
 -------------
 
