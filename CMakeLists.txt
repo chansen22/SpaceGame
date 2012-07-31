@@ -15,9 +15,6 @@ set (SRC_FILES
 # Libraries
 set (CMAKE_FIND_FRAMEWORK "NEVER")
 find_package (SFML REQUIRED system window graphics)
-#set (EXTRA_LIBS ${EXTRA_LIBS} "~/SFML/lib/libsfml-system.so")
-#set (EXTRA_LIBS ${EXTRA_LIBS} "~/SFML/lib/libsfml-window.so")
-#set (EXTRA_LIBS ${EXTRA_LIBS} "~/SFML/lib/libsfml-graphics.so")
 set (CMAKE_FIND_FRAMEWORK "ONCE")
 find_package (OpenGL REQUIRED)
 
