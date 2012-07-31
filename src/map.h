@@ -2,6 +2,7 @@
 #define MAP_H
 
 #include <iostream>
+#include "tile.h"
 
 using namespace std;
 
@@ -13,7 +14,7 @@ class Map {
   private:
     int m_xMapSize;
     int m_yMapSize;
-    int m_map[100][100];
+    Tile* m_map[100][100][100];
 };
 
 #endif

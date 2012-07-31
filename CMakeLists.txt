@@ -9,7 +9,8 @@ set (CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Modules)
 set (EXECUTABLE "spacegame")
 set (SRC_FILES
   src/main.cpp
-  src/map.cpp)
+  src/map.cpp
+  src/tile.cpp)
 
 # Libraries
 set (CMAKE_FIND_FRAMEWORK "NEVER")
