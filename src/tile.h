@@ -7,8 +7,8 @@ class Tile {
   public:
     enum TileType {
       Empty = 0,
-      Dirt,
       Grass,
+      Dirt,
       Rock,
       Wall
     };

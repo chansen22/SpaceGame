@@ -17,6 +17,12 @@ Install SFML
 - cmake .
 - sudo make install
 
+Install Libnoise
+----------------
+
+- sudo aptitude install libnoise-dev
+- (Depending on your distro this might be different)
+
 Clone SpaceGame
 ---------------
 

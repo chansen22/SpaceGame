@@ -1,6 +1,7 @@
 #ifndef MAP_H
 #define MAP_H
 
+#include <libnoise/noise.h>
 #include <iostream>
 #include "tile.h"
 

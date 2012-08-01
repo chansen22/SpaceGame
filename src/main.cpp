@@ -15,6 +15,7 @@ int main() {
   sf::Text text("Words");
 
   Map *map = new Map();
+  map->generateMap();
 
   while(App.isOpen()) {
     while(App.pollEvent(Event)) {

@@ -15,6 +15,7 @@ set (SRC_FILES
 # Libraries
 set (CMAKE_FIND_FRAMEWORK "NEVER")
 find_package (SFML REQUIRED system window graphics)
+find_package (Noise REQUIRED noise)
 set (CMAKE_FIND_FRAMEWORK "ONCE")
 find_package (OpenGL REQUIRED)
 
