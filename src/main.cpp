@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/OpenGL.hpp>
 #include "map.h"
+#include "graphics.h"
 
 using namespace std;
 
@@ -12,7 +13,8 @@ int main() {
   sf::Clock Clock;
   sf::Event Event;
 
-  sf::Text text("Words");
+  Graphics *graphics = new Graphics();
+  bool isOnMenu = true;
 
   Map *map = new Map();
   map->generateMap();
@@ -28,7 +30,8 @@ int main() {
     }
 
     App.clear();
-    App.draw(text);
+    if(isOnMenu)
+      graphics->drawMenu(&App);
     App.display();
   }
   return 0;

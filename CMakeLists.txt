@@ -10,6 +10,8 @@ set (EXECUTABLE "spacegame")
 set (SRC_FILES
   src/main.cpp
   src/map.cpp
+  src/graphics.cpp
+  src/button.cpp
   src/tile.cpp)
 
 # Libraries
